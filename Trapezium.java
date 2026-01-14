@@ -10,6 +10,8 @@ public class Trapezium {
         double Height1=input.nextDouble();
         double Area=Height1*(Length1+Length2)*0.5;
         System.out.print("The Area of this trapezium is " + Area);
+        input.close();
     }
     
 }
+
