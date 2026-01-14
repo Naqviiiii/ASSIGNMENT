@@ -9,5 +9,7 @@ public class Discount {
         double DSP;
         DSP=OSP*(100 - DP)/100;
         System.out.print("Your total ammount after discount is " + DSP);
+        input.close();
     }
+
 }
